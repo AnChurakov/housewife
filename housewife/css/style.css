@@ -19,6 +19,19 @@
 .header__menu-border {
     border-width: 3px!important;
 }
+.header .link:hover {
+    color: #4B515D;
+}
+.menu-open-btn {
+    background-color: #f8f8f8;
+    color: #4B515D;
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+    white-space: normal;
+    word-wrap: break-word;
+    font-weight: 400;
+    text-align: center;
+}
 /* ------ */
 
 /* logo */
