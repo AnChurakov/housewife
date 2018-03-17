@@ -2,35 +2,25 @@
 
 /* common */
 .page {
-    background-color: #f0f0f0;
-    height: 100%;
+  background-color: #f0f0f0;
+  height: 100%;
 }
 .white-paper {
-    background-color: #fff;
-    margin-bottom: 25px;
+  background-color: #fff;
+  margin-bottom: 25px;
 }
 /* ------ */
 
 /* header */
 .header__info {
-    background-color: #0099cc;
-    color: #fff;
+  background-color: #0099cc;
+  color: #fff;
 }
 .header__menu-border {
-    border-width: 3px!important;
+  border-width: 3px !important;
 }
 .header .link:hover {
-    color: #4B515D;
-}
-.menu-open-btn {
-    background-color: #f8f8f8;
-    color: #4B515D;
-    padding: .84rem 2.14rem;
-    font-size: .81rem;
-    white-space: normal;
-    word-wrap: break-word;
-    font-weight: 400;
-    text-align: center;
+  color: #4b515d;
 }
 /* ------ */
 
@@ -40,22 +30,64 @@
 
 /* search */
 .search__icon {
-    color: #d42727;
-    font-size: 23px;
+  color: #d42727;
+  font-size: 23px;
 }
 .search__input-wrap {
-    border: 1px solid #d42727;
+  border: 1px solid #d42727;
 }
 .search__input {
-    width: 100%;
-    height: 100;
-    border: none;
+  width: 100%;
+  height: 100;
+  border: none;
 }
 .search__input:focus {
-    outline: none;
+  outline: none;
 }
 /* ------ */
 
 /* menu */
+.menu-open-btn {
+  background-color: #f8f8f8;
+  color: #4b515d;
+  padding: 0.84rem 2.14rem;
+  font-size: 0.81rem;
+  white-space: normal;
+  word-wrap: break-word;
+  font-weight: 400;
+  text-align: center;
+}
+/* ------ */
 
+/* products */
+.products__tab-link {
+  padding: 0.84rem 3.14rem;
+  color: #4b515d;
+}
+.products__tab-link.active {
+  color: #fff;
+  background-color: #0099cc;
+}
+.products__tab {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.products__price {
+  padding: 0.84rem 3.14rem;
+}
+.products__row {
+  padding-bottom: 3rem;
+}
+.products__row:last-child {
+  padding-bottom: 0;
+}
+/* ------ */
+
+/* reviews */
+.carousel-control-prev {
+    left: -5%;
+}
+.carousel-control-next {
+    right: -5%;
+}
 /* ------ */
