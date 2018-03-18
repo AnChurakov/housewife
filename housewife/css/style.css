@@ -51,8 +51,23 @@
 /* ------ */
 
 /* menu */
+.menu-open {
+  position: relative;
+}
 .menu {
-  width: 110%;
+  position: absolute;
+  z-index: 10000;
+  left: 0;
+  width: 100%;
+  top: 100%;
+  background-color: #fff;
+  display: none;
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}
+.menu__item .menu {
+  left: 100%;
+  top: 0;
+  display: none;
 }
 .menu-open-btn {
   background-color: #ff4444;
@@ -63,6 +78,9 @@
   word-wrap: break-word;
   font-weight: 400;
   text-align: center;
+}
+.menu-open:hover > .menu {
+  display: block;
 }
 .menu__link {
   display: block!important;
