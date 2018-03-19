@@ -85,8 +85,9 @@
 .menu__link {
   display: block!important;
   color: #4b515d;
-  font-size: 1.1rem;
+  font-size:16px;
 }
+/*font-size 1.1rem*/
 .menu__link:hover {
   color: #4b515d;
   background-color: #f3f3f3;
