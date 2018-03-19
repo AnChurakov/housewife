@@ -62,7 +62,7 @@
   top: 100%;
   background-color: #fff;
   display: none;
-  box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .menu__item .menu {
   left: 100%;
@@ -70,24 +70,17 @@
   display: none;
 }
 .menu-open-btn {
-  background-color: #ff4444;
-  color: #fff;
-  padding: 0.84rem 2.14rem;
-  font-size: 0.81rem;
-  white-space: normal;
-  word-wrap: break-word;
-  font-weight: 400;
-  text-align: center;
+  display: block;
+  margin: 0;
 }
 .menu-open:hover > .menu {
   display: block;
 }
 .menu__link {
-  display: block!important;
+  display: block !important;
   color: #4b515d;
-  font-size:16px;
+  /* font-size: 1.1rem; */
 }
-/*font-size 1.1rem*/
 .menu__link:hover {
   color: #4b515d;
   background-color: #f3f3f3;
