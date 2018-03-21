@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Товар</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--  Супер сырая версия -->
+    <div class="page">
+        <div class="container">
+            <header class="header white-paper">
+                <div class="header__info">
+                    <div class="text-center py-2">
+                        <span class="font-weight-bold">Телефон горячей линии: </span>
+                        <u>8 800 555 35 35</u>
+                    </div>
+                </div>
+                <div class="header__nav-menu">
+                    <div class="header__inner">
+                        <nav class="nav-menu navbar navbar-expand-lg header__nav-menu px-5">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon fa fa-bars text-white align-middle"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="basicExampleNav">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link hoverable white-text mr-5 waves-effect waves-light" href="#">Главная
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hoverable white-text mr-5 waves-effect waves-light" href="#">Каталог</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hoverable white-text mr-5 waves-effect waves-light" href="#">Спецпредложения</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link hoverable white-text mr-5 waves-effect waves-light" href="#">Вакансии</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <div class="header__inner px-5">
+                        <div class="row py-4">
+                            <div class="col-3">
+                                <div class="logo py-1">
+                                    <a href="#" class="logo__link">
+                                        <img src="img/logo.png" alt="logo">
+                                    </a>
+                                </div>
+                                <a href="#" class="link d-block py-1">
+                                    <u>Адреса магазинов</u>
+                                </a>
+                            </div>
+                            <div class="col-9 d-flex justify-content-between">
+                                <div class="search py-2 ml-2 col-9 px-0">
+                                    <form action="" class="search__form d-flex" method="get" name="search_form">
+                                        <div class="search__input-wrap hoverable position-relative col-9 px-0 d-flex justify-content-start align-items-center">
+                                            <i class="fa fa-search prefix search__icon col-1 px-2"></i>
+                                            <input type="text" name="search" id="search_input" class="search__input py-2 col-11 px-0" placeholder="Введите название товара">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary header__btn search__btn col-3 m-0">Найти!</button>
+                                    </form>
+                                    <div class="py-2">
+                                        Например:
+                                        <a href="#" class="link">Колготы</a>,
+                                        <a href="#" class="link">АОС</a>,
+                                        <a href="#" class="link">Биолан</a>
+                                    </div>
+                                </div>
+                                <div class="cart ml-2 px-0 py-2">
+                                    <div class="btn btn-danger m-0 cart__btn">
+                                        <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
+                                        Корзина:
+                                        <span class="cart__count ml-1">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__menu w-100">
+                            <div class="header__inner w-100">
+                                <div class="d-flex justify-content-start w-100">
+                                    <div class="col-3 px-0 menu-open">
+                                        <div class="btn btn-danger menu-open-btn hoverable waves-effect waves-light position-relative">
+                                            Каталог товаров
+                                            <i class="fa fa-bars align-middle ml-2"></i>
+                                        </div>
+                                        <div class="menu">
+                                            <div class="menu__catalog">
+                                                <div class="menu__item menu-open">
+                                                    <a href="#" class="menu__link p-2 waves-effect waves-dark">Для дома
+                                                        <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                    </a>
+                                                    <div class="menu">
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Средства для стирки
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для мытья посуды
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для уборки
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Принадлежности для уборки
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Свежесть дома
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для кулинарии
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Бумажные изделия
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item menu-open">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Сопутствующие товары
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                            <div class="menu">
+                                                                <div class="menu__item">
+                                                                    <a href="#" class="menu__link p-2 waves-effect waves-dark">text
+                                                                        <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                                    </a>
+                                                                </div>
+                                                                <div class="menu__item">
+                                                                    <a href="#" class="menu__link p-2 waves-effect waves-dark">text
+                                                                        <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu__item menu-open">
+                                                    <a href="#" class="menu__link p-2 waves-effect waves-dark">Красота и уход
+                                                        <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                    </a>
+                                                    <div class="menu">
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для лица
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для тела
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для рук
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для ног
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Средства гигиены
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Для волос
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Парфюм и ароматы
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Декоративная косметика
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Уход за полосью рта
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="menu__item menu-open">
+                                                    <a href="#" class="menu__link p-2 waves-effect waves-dark">Детство
+                                                        <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                    </a>
+                                                    <div class="menu">
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Подгузники
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Салфетки
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Уход за полостью рта
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Шампуни
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Присыпки
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Средства для купания
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Игрушки
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Косметика для детей
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Подарочные наборы
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">Крема
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="menu__item menu-open">
+                                                    <a href="#" class="menu__link p-2 waves-effect waves-dark">Текстиль и колготы
+                                                        <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                    </a>
+                                                    <div class="menu">
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">text
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">text
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="menu__item menu-open">
+                                                    <a href="#" class="menu__link p-2 waves-effect waves-dark">Сезонный товар
+                                                        <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                    </a>
+                                                    <div class="menu">
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">text
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                        <div class="menu__item">
+                                                            <a href="#" class="menu__link p-2 waves-effect waves-dark">text
+                                                                <span class="fa fa-angle-right ml-2 grey-text" aria-hidden="true"></span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 px-0">
+                                        <div class="text-center blue-grey-text border-top header__menu-border flex-center">
+                                            <i class="fa fa-truck align-middle fa-2x mr-2"></i> Доставка 9:00 - 21:00
+                                        </div>
+                                    </div>
+                                    <div class="col-6 px-0">
+                                        <div class="d-flex justify-content-start">
+                                            <a href="#" class="col-4 px-0 btn btn-primary m-0 d-block header__btn">Условия доставки</a>
+                                            <a href="#" class="col-4 px-0 btn btn-primary m-0 d-block header__btn">Как оформить заказ?</a>
+                                            <a href="#" class="col-4 px-0 btn btn-primary m-0 d-block header__btn">Работа с юр. лицами</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="content">
+                <div class="content__inner px-5 white-paper">
+                    <div class="product">
+                        text
+                    </div>
+                </div>
+            </div>
+            <footer class="footer"></footer>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mdb.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
