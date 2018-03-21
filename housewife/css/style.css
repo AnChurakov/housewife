@@ -120,6 +120,17 @@
 }
 /* ------ */
 
+/* product */
+.product__image {
+  cursor: pointer;
+  overflow: hidden;
+}
+.product__price {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* ------ */
+
 /* reviews */
 .reviews {
   padding-bottom: 3rem;
