@@ -129,6 +129,9 @@
   font-weight: bold;
   font-size: 1.5rem;
 }
+.product__count {
+  font-size: 1.3rem;
+}
 /* ------ */
 
 /* reviews */
