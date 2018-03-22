@@ -135,11 +135,14 @@
 .reviews {
   padding-bottom: 3rem;
 }
-.carousel-control-prev {
+.reviews .carousel-control-prev {
   left: -5%;
 }
-.carousel-control-next {
+.reviews .carousel-control-next {
   right: -5%;
+}
+.reviews .blockquote {
+  height: 20vh;
 }
 /* ------ */
 
