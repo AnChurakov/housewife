@@ -38,12 +38,16 @@
   position: relative;
 }
 .cart-product__image img {
-  width: 250px;
+  width: 200px;
 }
 .cart-product__number {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
+}
+.cart-product__name,
+.cart-product__price {
+  font-size: 1.3rem!important;
 }
 .cart-product__price {
   text-align: right;
