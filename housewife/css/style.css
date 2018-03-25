@@ -94,16 +94,15 @@
   background-color: #fff;
   display: none;
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  min-height: 55vh;
+  min-height: 35vh;
   width: 100%;
-}
-.menu__catalog {
   background-color: #fff;
 }
 .menu__item .menu {
   left: 100%;
   top: 0;
   display: none;
+  width: 300%;
 }
 .menu-open-btn {
   display: block;
