@@ -46,6 +46,15 @@ body {
 .footer__link:hover {
   color: #fff;
 }
+/* contacts */
+.contacts__tel-number {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+.contacts__tel-description {
+  color: #cecece;
+}
+
 /* ------- */
 
 /* cart */
