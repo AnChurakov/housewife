@@ -1,8 +1,12 @@
 /* Your custom styles */
 
 /* common */
+body {
+  height: 100%;
+}
 .page {
   background-color: #f8f8f8;
+  height: inherit;
   min-height: 100vh;
 }
 .page .btn {
@@ -27,6 +31,9 @@
 }
 .header__nav-menu {
   background-color: #33b5e5;
+}
+.header__nav-menu .nav-menu {
+  box-shadow: none;
 }
 /* ------ */
 /* cart */
