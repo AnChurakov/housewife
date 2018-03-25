@@ -16,6 +16,9 @@ body {
   background-color: #fff;
   margin-bottom: 25px;
 }
+.white-paper:last-child {
+  margin-bottom: 0;
+}
 /* ------ */
 
 /* header */
@@ -36,6 +39,15 @@ body {
   box-shadow: none;
 }
 /* ------ */
+/* footer */
+.footer__link {
+  color: #cecece;
+}
+.footer__link:hover {
+  color: #fff;
+}
+/* ------- */
+
 /* cart */
 .cart-table__body td {
   vertical-align: middle;
