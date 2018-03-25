@@ -38,7 +38,7 @@
   position: relative;
 }
 .cart-product__image img {
-  width: 200px;
+  width: 170px;
 }
 .cart-product__number {
   position: absolute;
@@ -50,7 +50,13 @@
   font-size: 1.3rem!important;
 }
 .cart-product__price {
-  text-align: right;
+  text-align: center;
+}
+.cart-product:first-child td {
+  border-top: none;
+}
+.cart-product__delete .btn {
+  margin-bottom: 2.5rem;
 }
 /* ------ */
 /* logo */
