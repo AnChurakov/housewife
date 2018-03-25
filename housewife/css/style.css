@@ -3,7 +3,7 @@
 /* common */
 .page {
   background-color: #f8f8f8;
-  height: 100%;
+  min-height: 100vh;
 }
 .page .btn {
   box-shadow: none !important;
